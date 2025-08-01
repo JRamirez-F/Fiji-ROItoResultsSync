@@ -6,7 +6,7 @@ This is particularly useful when working with many labeled ROIs and correspondin
 
 ---
 
-## 🧩 Features
+## Features
 
 - ✅ Selecting a row in the Results Table selects the associated ROI (based on label).
 - ✅ Selecting an ROI in the ROI Manager highlights the corresponding Results Table row.
@@ -16,13 +16,13 @@ This is particularly useful when working with many labeled ROIs and correspondin
 
 
 ---
-## 🎞️ Demo
+## Demo
 
 ![ROI Sync Watcher Demo](./Demo_watcher.gif)
 
 ---
 
-## 🛠️ How to Use
+## How to Use
 
 ### Method 1: Run as a Script
 
@@ -37,7 +37,7 @@ This is particularly useful when working with many labeled ROIs and correspondin
 
 ---
 
-## 🧪 Requirements
+## Requirements
 
 - Fiji with Jython support (included by default)
 - An active **Results Table** and **ROI Manager**
@@ -63,5 +63,17 @@ Neuroscience postdoctoral researcher
 ## 🤝 Contributions
 
 Contributions, suggestions, and improvements are welcome! Feel free to open issues or pull requests.
+
+
+---
+## Acknowledgments
+
+I would like to warmly thank the following members of the Image.sc forum for their helpful advice and support during the development of this plugin:
+
+- [@scouser27](https://forum.image.sc/u/scouser27)  
+- [@Nicolas](https://forum.image.sc/u/Nicolas)
+
+Their insights and encouragement were invaluable.
+
 
 
