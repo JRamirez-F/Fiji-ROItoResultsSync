@@ -14,6 +14,12 @@ This is particularly useful when working with many labeled ROIs and correspondin
 - ✅ Watchers run in the background and can be stopped by pressing the `ESC` key.
 - ✅ Automatic prevention of duplicate timers.
 
+
+---
+## 🎞️ Demo
+
+![ROI Sync Watcher Demo](./Demo_watcher.gif)
+
 ---
 
 ## 🛠️ How to Use
@@ -37,11 +43,6 @@ This is particularly useful when working with many labeled ROIs and correspondin
 - An active **Results Table** and **ROI Manager**
 - ROI labels should be of the form:  
   `image_name:roi_name[:z:number]`
-
----
-## 🎞️ Demo
-
-![ROI Sync Watcher Demo](./Demo_watcher.gif)
 
 
 ---
