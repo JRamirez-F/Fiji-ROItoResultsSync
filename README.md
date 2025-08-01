@@ -2,14 +2,14 @@
 
 A Python script plugin for [Fiji/ImageJ](https://imagej.net/software/fiji/) that provides **two-way synchronization** between the **Results Table** and the **ROI Manager**.
 
-This is particularly useful when working with many labeled ROIs and corresponding results. The plugin ensures that selecting an entry in the Results Table highlights the corresponding ROI, and vice versa.
+This is particularly useful when working with many ROIs and corresponding results. The plugin ensures that selecting an entry in the Results Table highlights the corresponding ROI, and _vice versa_.
 
 ---
 
 ## Features
 
-- ✅ Selecting a row in the Results Table selects the associated ROI (based on label).
-- ✅ Selecting an ROI in the ROI Manager highlights the corresponding Results Table row.
+- ✅ Selecting a row in the Results Table selects the associated ROI (based on ROI label_name).
+- ✅ Selecting an ROI in the ROI Manager highlights the corresponding Results Table row (pointing to the correct slice if it relates to a z-stack).
 - ✅ Synchronization works across multiple slices (Z-positions), using the label suffix `z:<number>` if present.
 - ✅ Watchers run in the background and can be stopped by pressing the `ESC` key.
 - ✅ Automatic prevention of duplicate timers.
