@@ -39,6 +39,12 @@ This is particularly useful when working with many labeled ROIs and correspondin
   `image_name:roi_name[:z:number]`
 
 ---
+## 🎞️ Demo
+
+![ROI Sync Watcher Demo](./Demo_watcher.gif)
+
+
+---
 
 ## 📄 License
 
